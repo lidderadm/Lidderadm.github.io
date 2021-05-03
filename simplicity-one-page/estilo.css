@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;900&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: Tahoma, sans-serif; 
+  }
+
+img, iframe, video {
+  max-width: 100%;
+
+}
+
+p { 
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+
+}
+
+h2 {
+  font-size: 2.0rem;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3b90f0;
+  width: 20%;
+  display: inline-block;
+  font-size: 1.3rem;
+  line-height: 2.7rem;
+  transition: 0.4s;
+}
+
+nav a:hover, nav a:active {
+  background-color:#3b90f0;
+  color: #fff;
+
+}
+
+.destaque {
+   background-image: url(imagens/imagens/imagem-destaque-fundo.jpg);
+   height: 70vh;
+   display: table;
+   width: 100%;
+
+}
+
+.container {
+   background-color: rgba(0,0,0, .6);
+   height: 70vh;
+   /*display: flex;
+   justify-content: center;
+   align-items: center;*/
+   display: table-cell;
+   vertical-align: middle;
+  
+   
+}
+
+.fundo-texto {
+   background-color:rgba(255, 255, 255, .8);
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 40px;
+}
+
+   .destaque h1 {
+     color: #df1a9c;
+     font-weight: bold;
+     font-size: 3.5em;
+     margin-bottom: 0px;
+
+   }
+
+   .destaque p {
+     color: #3b90f0;
+     font-size: 1.8rem;
+
+   }
+
+   .fundo-cta {
+     background-color: #df1a9c;
+   }
+
+   .cta {
+     max-width:960px;
+     margin: 0 auto;
+     text-align: center;
+   }
+
+   .cta p {
+     margin: 0;
+     padding: 10px;
+     font-size: 1.1em;
+     color: white;
+   }
+
+   main {
+     max-width: 1200px;
+     margin: 40px auto;
+     text-align: center;
+   }
+
+   .imagens {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+
+   }
+
+   .imagens img{
+     max-width: 30%;
+     margin-top: 14px;
+
+   }
+
+   .fundo-video {
+     background:url(imagens/imagens/fundo-madeira.jpg);
+     height: auto;
+     
+   }
+
+   .video {
+     max-width: 900px;
+     margin: 0 auto;
+     text-align: center;
+     padding: 30px 0;
+
+    }
+
+    .video h2 {
+      color: white;
+      font-size: 2.0em;
+
+    }
+
+    .fundo-form {
+      padding: 50px 0;
+      background: url(imagens/imagens/fundo-contato.jpg) center;
+      background-size: cover;
+    }
+
+    .formulario {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.75);
+      padding: 20px;
+    }
+
+    .formulario label {
+      display: flex;
+    }
+
+    .formulario input, .formulario textarea {
+      display: flex;
+      width: 80%;
+      margin-right: 10px;
+      
+      margin-bottom: 15px;
+      font-family:'Gill Sans' sans-serif;
+
+    }
+
+    .formulario input:hover, 
+    .formulario input:active, .formulario textarea:hover, .formulario textarea:active {
+      background: #3b8ff022;
+    } 
+
+    /*.formulario textarea {
+      display: flex;
+      width: 70%;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      padding: 10px;
+    }*/
+
+    .formulario textarea {
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+          
+    }
+
+    .enviar {
+      background: #3b90f0;
+      color: #fff;
+      padding: 10px;
+      border: none; 
+    }
+
+    .enviar:hover, .enviar:active {
+      background: #3b8ff0cc;
+      transition: all 0.5s;
+    } 
+
+  @media screen and(min-width:1000px) {
+
+    header {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    }
+ 
+    .logo {
+      width: 30%;
+    }
+
+    nav {
+      width: 70%;
+    }
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      
+    }
+
+.formulario label {
+  
+}
+
+
+.formulario input {
+  width:25%;
+  margin-bottom: 20px;
+}
+
+
+
+    .fundo-rodape {
+      background: #333;
+      border-bottom: #3b90f0 8px solid;
+    }
+
+
+
+    footer {
+      background:#333;
+      color: #999;
+      text-align: center;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 6px 0;
+    }
